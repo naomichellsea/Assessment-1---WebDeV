@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<!--Petrol Calculator ☑️
+Create a simple petrol calculator. Your petrol calculator must include:
+
+A field for the user the enter the cost of petrol per liter. This should have a default value of 1.72
+A field for the user to enter the number of liters purchased. This should have a default value of 0
+A button that when clicked calculates the total cost of the petrol purchased and displays the result to the screen
+A p tag to display the total cost
+Comments throughout every file.
+Buttons should include hover effects, and fields should clearly "focus" when in use.
+Clean and professional creative styling.
+-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Petrol Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Petrol Calculator</h1>
+        <!-- Input fields and button for the petrol calculator -->
+        <div class="input-group">
+            <label for="cost">Cost per liter (AED):</label>
+            <input type="number" id="cost" value="1.72" step="0.01" min="0.01" required>
+        </div>
+        <div class="input-group">
+            <label for="liters">Liters purchased:</label>
+            <input type="number" id="liters" value="0" step="0.01" min="0" required>
+        </div>
+        <button id="calculate-btn">Calculate</button>
+        <!-- Display area for the total cost -->
+        <p id="total-cost"></p>
+    </div>
+
+    <script src="calcu.js"></script>
+</body>
+</html>

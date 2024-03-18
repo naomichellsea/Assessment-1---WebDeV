@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    text-align: center;
+}
+
+.container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 30px; /* Increased padding for better spacing */
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    margin-bottom: 30px; /* Increased margin for better spacing */
+    color: #333;
+}
+
+.input-group {
+    margin-bottom: 30px; 
+}
+
+label {
+    display: block;
+    margin-bottom: 10px; 
+}
+
+input {
+    width: calc(100% - 18px); /* Adjusted width to account for padding and border */
+    padding: 10px; /* Increased padding for better input appearance */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+}
+
+button {
+    background-color: #FF204E;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 12px 24px; /* Adjusted padding for better button appearance */
+    cursor: pointer;
+    transition: background-color 0.3s; /* transition animation for button */
+}
+
+button:hover {
+    background-color: #A0153E;
+}
+
+#total-cost {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #333;
+    margin-top: 30px; 
+}
