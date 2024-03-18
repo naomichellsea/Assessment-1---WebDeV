@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<!--Recipe page ☑️
+Create a web page containing information on your favourite recipe. The page should include
+
+Appropriate tags to structure text (e.g. h and p tags).
+A h1 tag for the recipe name
+A p tag for a description of the recipe
+A h2 tag for the ingredients
+An unorder list for the ingredients
+An h2 tag for the method
+An order list for the steps involved in the recipe 'method'
+Make sure the code is indented and spaced properly.
+Add comments explaining what each element does.-->
+<html lang="en">
+<head>
+    <title>Naomi's Favourite Recipe</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="menu-bar">
+        <h2 class="menu-item">Beef Burritos</h2>
+    </div>
+    
+    <!-- Recipe image -->
+    <div class="image-container">
+        <img src="/Users/naomichellsea/beef.jpg" alt="Beef Burrito Recipe" class="recipe-image">
+        <img src="/Users/naomichellsea/beef-burritos-7.jpg" alt="Beef Burrito Recipe" class="recipe-image">
+    </div>
+
+    <!-- Title "Naomi's Favourite Recipe" -->
+    <div class="recipe-title">
+        <hr class="title-line">
+        <h1 class="recipe-name">Naomi's Favourite Recipe</h1>
+        <hr class="title-line">
+    </div>
+
+    
+    <!-- Description of the recipe -->
+    <p class="recipe-description">Savour the mouthwatering enjoyment of a classic beef burrito dish, which includes juicy seasoned beef, healthy beans, melting cheese, and a blast of flavor from salsa, all wrapped securely in a warm tortilla.</p>
+    
+    <!-- Video -->
+    <div class="videocenter">
+        <video controls autoplay>
+            <source src="/Users/naomichellsea/Downloads/How To Roll A Burrito.mp4" type="video/mp4"/>
+        </video>
+    </div>
+    
+    <!-- Ingredients -->
+    <h3>Ingredients</h3>
+    <ul class="ingredients"> <!-- Unorder list for ingredients -->
+        <li> Burrito Seasoning:
+            <ul>
+                <li>1 tsp each onion powder.</li>
+                <li>2 tsp each dried cumin powder.</li>
+                <li><sup>1</sup>/<sub>4</sub> tsp black pepper.</li>
+                <li><sup>1</sup>/<sub>4</sub> tsp cayenne pepper.</li>
+            </ul>
+        </li>
+        <li> Beef:
+            <ul>
+                <li> <sup>1</sup>/<sub>2</sub> tbsp olive oil.</li>
+                <li> 2 garlic cloves.</li>
+                <li><sup>1</sup>/<sub>2</sub> onion.</li>
+                <li> 500g beef mince.</li>
+                <li>2 tbsp tomato paste.</li>
+                <li>3 tbsp water.</li>
+            </ul>
+        </li>
+        <li> Burritos:
+            <ul>
+                <li>6-8 large soft flour tortillas.</li>
+                <li>3 cups cooked rice.</li>
+                <li> 3 cups iceber lettuce.</li>
+                <li> 1 cup corn kernels.</li>
+                <li>1 cup black beans.</li> <!-- list item for burritos -->
+                <li> 3 diced tomatoes.</li>
+                <li><sup>1</sup>/<sub>2</sub> red onion.</li>
+                <li>Finely chopped cilantro.</li>
+                <li>150g shredded cheddar cheese.</li>
+            </ul>
+        </li>
+    </ul>
+    
+    <!-- Method -->
+    <h3>Method</h3>
+    <ol class="method">
+        <li>Heat oil in a skillet over high heat. Add garlic and onion, cook for 2 minutes until onion is lightly browned. Add beef and cook, breaking it up as you go, until it turns from red to brown.</li>
+        <li>Add Taco Seasoning (or use 1 packet store bought) and cook for 1 minute. Then add tomato paste and water, cook for 3 minutes until the water is mostly evaporated but the beef is still juicy, not dried out. Set aside to cool for 10 minutes piping hot filling will steam the burrito, making the tortilla soggy.</li>
+        <li>Optional: If not warming rolled burrito, warm the tortillas before rolling (per packet directions).</li>
+        <li>Place a burrito on a work surface. Place <sup>1</sup>/<sub>4</sub> - <sup>1</sup>/<sub>3</sub> cup of rice just below the centre. Top with <sup>1</sup>/<sub>4</sub> - <sup>1</sup>/<sub>3</sub>  cup beef, then some lettuce, corn, black beans, tomato,  a sprinkle of red onion, coriander and cheese.</li>
+        <li>Fold up the bottom to cover the filling then fold the edges in (video helpful to see how to do this). Roll up tightly, then wrap in foil. Serve as is or heat per below.</li>
+        <li>HEATING: To warm through, pan fry (dry pan) in the foil over medium high heat for a few minutes on each side to slightly crisp and warm the outside. Or for 10+ minutes on a medium low heat if you want to melt the cheese. Or they can be baked at 180C/350F for 20 minutes in the foil – this will warm them all the way through and crisp up the tortilla slightly. If they are straight from the fridge, they will take around 30 minutes to warm through.</li>
+        <li>Burritos are best served with something to dollop/dip - sour cream (or yoghurt) and some sort of chilli sauce are my usual because it's easy. </li>
+    </ol>
+
+    <!-- Audio -->
+    <audio controls>
+        <source src="/Users/naomichellsea/Downloads/Peder B. Helland - Calm Wind.mp3" type="audio/mp3"/>
+    </audio>
+</body>
+</html>

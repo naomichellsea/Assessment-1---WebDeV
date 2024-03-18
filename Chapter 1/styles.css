@@ -1,0 +1,80 @@
+/* Body background color */
+body {
+    background-color: #FEFBF6;
+}
+
+.menu-bar {
+    background-color: #94A684; /* desired background color */
+    padding: 10px;
+    text-align: center;
+    border: 2px solid #333; /* Add border */
+}
+
+.menu-item {
+    color: #333; /* black text color */
+    font-size: 35px; /* font size */
+    font-weight: bolder;
+}
+
+
+/* Container for recipe image */
+.image-container {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+}
+
+
+.recipe-image {
+    width: 30%; /* Adjust as needed */
+    margin: 20px;
+    padding: 10px;
+}
+
+/* Title "Naomi's Favourite Recipe" */
+.recipe-title {
+    text-align: center;
+    color: #94A684;
+}
+
+.title-line {
+    width: 50%;
+    border: 1px solid #000;
+}
+
+/* Recipe name */
+.recipe-name {
+    text-align: center;
+}
+
+
+/* Recipe description */
+.recipe-description {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* CSS to center the video */
+.videocenter {
+    display: flex;
+    justify-content: center;
+}
+
+/* Set the width of the video */
+video {
+    width: 500px;
+    height: auto;
+}
+
+/* Styling for ingredients list */
+.ingredients {
+    list-style-type: square;
+    color: #435334;
+}
+
+/* Styling for method steps */
+.method {
+    list-style-type: lower-roman;
+    color: #435334;
+    margin-inline: 2px;
+}
