@@ -1,0 +1,114 @@
+body { /* Set font, text alignment, and padding for the body */
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding-top: 0; /* Improved padding */
+  padding-bottom: 60px; /* Improved padding */
+  background-color: #F6F6F6;
+}
+
+
+h1 {
+  font-size: 3em;
+  font-weight: bold;
+  background-image: linear-gradient(90deg, pink, blue);
+  -webkit-background-clip: text;
+  color: transparent;
+  background-clip: text;
+  animation: animateText 5s linear infinite;
+}
+
+@keyframes animateText {
+  0% {
+      filter: hue-rotate(0deg);
+  }
+  100% {
+      filter: hue-rotate(360deg);
+  }
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.image-container {
+  width: calc(50% - 40px); /* 50% width with margins */
+  margin-top: 20px;
+  margin-bottom: 40px; 
+  vertical-align: top; /* Align images at the top */
+  height: 400px; /* Set a fixed height for image containers */
+}
+
+/* Increase space between top and bottom image */
+.image-container:nth-child(-n+2) {
+  margin-bottom: 70px;
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%; /* Adjust height to fit container */
+  border-radius: 10px;
+  border: 5px solid #CE5A67; /* Add border */
+  filter: grayscale(100%);
+  transition: filter 0.3s ease;
+}
+
+img:hover {
+  filter: grayscale(0%);
+}
+
+p {
+  color: #666;
+  overflow: hidden; /* Hide overflow */
+  white-space: nowrap; /* Prevent line breaks */
+  animation: typing 4s steps(30, end) infinite; /* Typing animation */
+}
+
+@keyframes typing {
+  from {
+      width: 0;
+  }
+  to {
+      width: 100%;
+  }
+}
+
+.navbar {
+  background-color: #AD88C6;
+  overflow: hidden;
+  margin-bottom: 20px; /* Adjusted margin */
+  text-align: center; /* Center the navigation links horizontally */
+}
+
+.navbar a {
+  display: inline-block; /* Display the links as inline-block to center them */
+  color: white;
+  text-decoration: none;
+  padding: 14px 20px;
+}
+
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+
+/* Footer styles */
+.footer {
+  background-color: #AD88C6;
+  color: white;
+  text-align: center; /* Align text to the center */
+  padding: 3px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  animation: none; /* Removed text animation */
+}
+
+.footer h5 {
+  color: white; /* Text color */
+  font-size: 13px; 
+  margin: 5px 0; 
+}
