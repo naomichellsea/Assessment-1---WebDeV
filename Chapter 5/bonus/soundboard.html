@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<!-- Alan Partridge Soundboard (Bonus - Optional)
+A local comedy radio show needs you to develop an audio soundboard for them. The soundboard will display a grid of Alan Partridge samples. When a sample is clicked the associated audio file will play. The audio samples for this exercise are located in Exercises/Audio Sampler. Your sampler must:
+
+Include all of the samples in the Audio Sampler directory;
+Display all samples on a single non-scrolling page;
+Make use of correct semantic markup;
+Display the correct sample name;
+Change the colour of the background, and text, when the user hovers over a sample;
+Include index.html, style.css and index.js files;
+Include creative styling for your background, sample buttons, fonts and hover effects;
+-->
+<head>
+    <title>Alan Partridge Soundboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <body>
+        <div class="header"> <!-- Header -->
+            <h1>Audio Sampler</h1>
+        </div>
+        <div class="container">
+            <h2>Alan Partridge Soundboard</h2>
+        <ul class="soundboard"> <!-- soundboard list -->
+            <li class="sound" id="sound1">
+                <button data-sound-id="1">Jurrassic Park</button>
+                <audio src="/Users/naomichellsea/Downloads/jurassic-park-101soundboards.mp3" id="audio1"></audio>
+            </li>
+            <li class="sound" id="sound2">
+                <button data-sound-id="2">I've seen some terrible things mate</button>
+                <audio src="/Users/naomichellsea/Downloads/ive-seen-some-terrible-things-mind-101soundboards.mp3" id="audio2"></audio>
+            </li>
+            <li class="sound" id="sound3">
+                <button data-sound-id="3">I was drunk</button>
+                <audio src="/Users/naomichellsea/Downloads/i-was-drunk-101soundboards.mp3" id="audio3"></audio>  <!-- Audio file -->
+            </li>
+            <li class="sound" id="sound4">
+                <button data-sound-id="4">Hello Pastridge</button>
+                <audio src="/Users/naomichellsea/Downloads/hello-partridge-101soundboards.mp3" id="audio4"></audio>
+            </li>
+            <li class="sound" id="sound5">
+                <button data-sound-id="5">Do you mind if I talk?</button>
+                <audio src="/Users/naomichellsea/Downloads/do-you-mind-if-i-talk-101soundboards.mp3" id="audio5"></audio>
+            </li>
+            <li class="sound" id="sound6">
+                <button data-sound-id="6">Can we talk about me?</button>
+                <audio src="/Users/naomichellsea/Downloads/can-we-talk-about-me-101soundboards.mp3" id="audio6"></audio>
+            </li>
+            <li class="sound" id="sound7">
+                <button data-sound-id="7">Best valentines in 8 years</button>
+                <audio src="/Users/naomichellsea/Downloads/best-valentines-in-eight-years-101soundboards.mp3" id="audio7"></audio>
+            </li>
+            <li class="sound" id="sound6">
+                <button data-sound-id="8">Alans deep bath</button>  <!-- Sound button -->
+                <audio src="/Users/naomichellsea/Downloads/alans-deep-bath-brought-to-you-by-dettol-101soundboards.mp3" id="audio8"></audio>
+            </li>
+            <li class="sound" id="sound6">
+                <button data-sound-id="9">Aha!</button>
+                <audio src="/Users/naomichellsea/Downloads/a-ha-101soundboards.mp3" id="audio9"></audio>
+            </li>
+        </ul>
+    </div>
+    <script src="sounds.js"></script> <!-- Include JavaScript -->
+</body>
+</html>

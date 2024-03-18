@@ -1,0 +1,65 @@
+body {
+    background-image: url('/Users/naomichellsea/comedy.jpg');
+    background-size: 1500px; /* Adjust background-size */
+    background-position: center center; /* Adjust background-position */
+    background-repeat: no-repeat; /* Prevent background image from repeating */
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding-top: 120px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.8); /* Add a semi-transparent white background to container */
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border: 3px solid #176B87; /* Add border */
+}
+/* Add styles for the header */
+.header {
+    position: fixed;
+    top: 33px;
+    left: 0;
+    width: 100%;
+    background-color: #40679E;
+    padding: 15px; /* Reduce padding */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.header h1 {
+    margin: 0;
+    color: #EEF5FF;
+    font-size: 20px; /* Reduce font size */
+}
+
+
+.container h2 {
+    color: #333;
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+
+/* Remaining styles for sound buttons */
+.sound {
+    display: inline-block;
+    margin: 10px;
+}
+
+.sound button {
+    padding: 15px 30px;
+    background-color: #6c5ce7;
+    color: white;
+    border: 5px solid #E6B9DE; /* Add border */
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease; /* Add border-color transition */
+    font-size: 16px;
+}
+
+.sound button:hover {
+    background-color: #4834d4;
+    border-color: #4834d4; /* Change border color on hover */
+}
+

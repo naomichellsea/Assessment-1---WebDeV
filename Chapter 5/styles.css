@@ -1,0 +1,18 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('/Users/naomichellsea/eu.jpg');
+    background-size: 1500px; /* Adjust background-size */
+    background-position: center center; /* Adjust background-position */
+    background-repeat: no-repeat; /* Prevent background image from repeating */
+}
+
+video {
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+}

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<!-- Further Extension Problems
+The radio show loved the sampler you made for them before, but they'd like to give a more advanced system a go. In a new directory, build on top of your previous sampler and include the following new ideas:
+
+The show would like to include a text to speech feature. This feature allows presenters to type any text they like into a <textarea> element and have it converted to audio which then plays immediately. This new feature should be displayed in a seperate column next to the audio samples (see image below for reference);
+
+The show would like to include more audio samples. However, they only want sampler to display nine samples at a time. Create a system whereby the team can use "left" and "right" arrows to scroll through an extended bank of samples. The team is open to your creative ideas as to what audio is included on these new pages. When the first page is displayed, the "left arrow" should be hidden, and when the last page is displayed the "right" arrow should be hidden (prevents users from scrolling to blank sample pages or encountering errors);
+
+The team would like the length of the sample in seconds to be dynamically displayed underneath the sample title.
+-->
+<html lang="en">
+<head>
+    <title>Alan Partridge Soundboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <body>
+        <div class="header">
+            <h1>Audio Sampler</h1>
+        </div>
+        <div class="container">
+            <h2>Alan Partridge Soundboard</h2>
+        <ul class="soundboard">
+            <li class="sound" id="sound1">
+                <button data-sound-id="1">Jurrassic Park</button>
+                <audio src="/Users/naomichellsea/Downloads/jurassic-park-101soundboards.mp3" id="audio1"></audio>
+            </li>
+            <li class="sound" id="sound2">
+                <button data-sound-id="2">I've seen some terrible things mate</button>
+                <audio src="/Users/naomichellsea/Downloads/ive-seen-some-terrible-things-mind-101soundboards.mp3" id="audio2"></audio>
+            </li>
+            <li class="sound" id="sound3">
+                <button data-sound-id="3">I was drunk</button>
+                <audio src="/Users/naomichellsea/Downloads/i-was-drunk-101soundboards.mp3" id="audio3"></audio>
+            </li>
+            <li class="sound" id="sound4">
+                <button data-sound-id="4">Hello Pastridge</button>
+                <audio src="/Users/naomichellsea/Downloads/hello-partridge-101soundboards.mp3" id="audio4"></audio>
+            </li>
+            <li class="sound" id="sound5">
+                <button data-sound-id="5">Do you mind if I talk?</button>
+                <audio src="/Users/naomichellsea/Downloads/do-you-mind-if-i-talk-101soundboards.mp3" id="audio5"></audio>
+            </li>
+            <li class="sound" id="sound6">
+                <button data-sound-id="6">Can we talk about me?</button>
+                <audio src="/Users/naomichellsea/Downloads/can-we-talk-about-me-101soundboards.mp3" id="audio6"></audio>
+            </li>
+            <li class="sound" id="sound7">
+                <button data-sound-id="7">Best valentines in 8 years</button>
+                <audio src="/Users/naomichellsea/Downloads/best-valentines-in-eight-years-101soundboards.mp3" id="audio7"></audio>
+            </li>
+            <li class="sound" id="sound8">
+                <button data-sound-id="8">Alans deep bath</button>
+                <audio src="/Users/naomichellsea/Downloads/alans-deep-bath-brought-to-you-by-dettol-101soundboards.mp3" id="audio8"></audio>
+            </li>
+            <li class="sound" id="sound9">
+                <button data-sound-id="9">Aha!</button>
+                <audio src="/Users/naomichellsea/Downloads/a-ha-101soundboards.mp3" id="audio9"></audio>
+            </li>
+            <li class="sound" id="sound10">
+                <button data-sound-id="10">Yes please!</button>
+                <audio src="/Users/naomichellsea/Downloads/yes-please-101soundboards.mp3" id="audio10"></audio>
+            </li>
+            <li class="sound" id="sound11">
+                <button data-sound-id="11">No stay don't go</button>
+                <audio src="/Users/naomichellsea/Downloads/no-stay-dont-go-101soundboards.mp3" id="audio11"></audio>
+            </li>
+            <li class="sound" id="sound12">
+                <button data-sound-id="12">I'll get him later</button>
+                <audio src="/Users/naomichellsea/Downloads/ill-get-him-later-101soundboards.mp3" id="audio12"></audio>
+            </li>
+            <li class="sound" id="sound13">
+                <button data-sound-id="13">I love you in a way</button>
+                <audio src="/Users/naomichellsea/Downloads/i-love-you-in-a-way-101soundboards.mp3" id="audio13"></audio>
+            </li>
+            <li class="sound" id="sound14">
+                <button data-sound-id="14">Hot Topic</button>
+                <audio src="/Users/naomichellsea/Downloads/hot-topic-101soundboards.mp3" id="audio14"></audio>
+            </li>
+            <li class="sound" id="sound15">
+                <button data-sound-id="15">Funny Stories</button>
+                <audio src="/Users/naomichellsea/Downloads/funny-stories-101soundboards.mp3" id="audio15"></audio>
+            </li>
+            <li class="sound" id="sound16">
+                <button data-sound-id="16">Do you like owls?</button>
+                <audio src="/Users/naomichellsea/Downloads/do-you-like-owls-101soundboards.mp3" id="audio16"></audio>
+            </li>
+            <li class="sound" id="sound17">
+                <button data-sound-id="17">Do you deny?</that></button>
+                <audio src="/Users/naomichellsea/Downloads/do-you-deny-that-101soundboards.mp3" id="audio17"></audio>
+            </li>
+            <li class="sound" id="sound18">
+                <button data-sound-id="18">Alright Chris</button>
+                <audio src="/Users/naomichellsea/Downloads/alright-chris-101soundboards.mp3" id="audio18"></audio>
+            </li>
+        </ul>
+    </div>
+    <div class="text-to-speech"> <!-- Text to Speech Feature -->
+        <textarea id="textInput" placeholder="Type text here..."></textarea>
+        <button id="textToSpeechBtn">Say It</button>
+    </div>
+    <div class="pagination"> <!-- Pagination -->
+        <button id="prevPageBtn">&larr; Prev</button>
+        <button id="nextPageBtn">Next &rarr;</button>
+    </div>    
+    <script src="music.js"></script>
+</body>
+</html>
