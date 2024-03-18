@@ -1,0 +1,129 @@
+/* Set font and remove default margin and padding for the body */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply padding and margin to all elements, include padding and border in total width and height */
+* {
+    padding: 20;
+    margin: 25;
+    box-sizing: border-box; 
+}
+
+/* Header Styles */
+header {
+    background-color: #321E1E;
+    color: #fff;
+    padding: 10px;
+}
+
+/* Center align text and add top margin */
+.center {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Title Styles */
+.title {
+    font-size: 32px; 
+    color: #333; 
+}
+
+/* Navigation Styles */
+nav {
+    float: right; /* Float the navigation bar to the right */
+    background-color: #321E1E; /* Add background color */
+    padding: 4px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block; /* Display list items horizontally */
+    margin-right: 10px; /* Add margin between list items */
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px; /* Add padding to each link for better spacing */
+}
+
+/* Change color on hover */
+nav ul li a:hover {
+    background-color: #555; /* Change background color on hover */
+}
+
+/* Main Section Styles */
+main {
+    padding: 20px; /* Default padding for all pages */
+}
+
+/* Section Styles */
+section {
+    margin-bottom: 20px;
+    background-color: #F3EEEA; /* Light gray background color */
+    padding: 20px;
+    border-radius: 5px;
+}
+
+/* Heading Styles */
+h1, h2, h3 {
+    color: #333;
+}
+
+/* Reviews Section Styles */
+#reviews li {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.stars {
+    font-size: 20px;
+    color: gold;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #321E1E;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Button Styles */
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #CD1818;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* Change button color on hover */
+.button:hover {
+    background-color: #971111; /* Change background color on hover */
+}
+
+/* Image Styles */
+.image-container {
+    display: flex; /* Use flexbox */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 888px; /* Set a fixed height for the container */
+    width: 300px;
+    margin-top: 20px; 
+}
+
+.griselda-home {
+    max-width: 50%; /* Ensure the image doesn't exceed its container */
+    height: auto; /* Maintain aspect ratio */
+}

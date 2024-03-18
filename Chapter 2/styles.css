@@ -1,0 +1,98 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff; /* Add your desired background color */
+}
+
+/* Header Styles */
+header {
+    background-color: #321E1E;
+    color: #fff;
+    padding: 10px;
+}
+.center {
+    text-align: center;
+    margin-top: 20px; 
+}
+
+.title {
+    font-size: 32px; /* Set font size */
+    color: #333; 
+}
+
+/* Navigation Styles */
+nav {
+    float: right; /* Float the navigation bar to the right */
+    width: 200px; /* Set a width for the navigation bar */
+    background-color: #321E1E; 
+    padding: 4px;
+    margin-left: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: block;
+    margin-bottom: 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    display: block; /* Ensure each link takes up the full width of the navigation bar */
+    padding: 10px;
+}
+/* Change color on hover */
+nav ul li a:hover {
+    background-color: #555; /* Change background color on hover */
+}
+
+main {
+    padding: 20px;
+}
+
+/* Section Styles */
+section {
+    margin-bottom: 20px;
+}
+
+h1, h2, h3 {
+    color: #333;
+}
+
+#reviews li {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.stars {
+    font-size: 20px;
+    color: gold;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #321E1E;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #CD1818;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+/* Change button color on hover */
+.button:hover {
+    background-color: #971111; /* Change background color on hover */
+}
