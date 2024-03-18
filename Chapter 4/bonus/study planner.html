@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<!--Study planner (Bonus - Optional)
+Imagine you have been employed to build a single-page web application that manages a study plan for the Web Development module on the Creative Computing course. Use HTML and CSS to mock-up what this application would look like, without adding any interactivity. You must include:
+
+Wireframe (add image to the directory);
+Header, Navigation menu, main content and a footer;
+The main content must be split into two or three columns;
+Five demo items;
+Your HTML should use semantically correct elements;
+An external style.css file;
+The use of at least one button;
+The page does not need to be interactive;
+You should focus on the structure and visual layout of the page, but also consider design too;
+Commenting throughout.
+-->
+<html lang="en">
+<head>
+    <title>Study Plan - Web Development Module</title> <!-- Page title -->
+    <link rel="stylesheet" href="style.css"> <!-- Link to external CSS file -->
+</head>
+<body>
+    <header>
+        <h1>Study Plan - Web Development</h1>
+    </header>
+    <nav>
+        <ul> <!-- Unordered list for navigation links -->
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Courses</a></li>
+            <li><a href="#">Schedule</a></li>
+            <li><a href="#">Resources</a></li>
+            <li><a href="#">Contact</a></li> <!-- Navigation link -->
+        </ul>
+    </nav>
+    <main>
+        <div class="content">
+            <div class="image-container">
+                <img src="/Users/naomichellsea/webd.jpg" alt="WebDev" title="WebDev" />
+            </div>
+            <section class="task-column">
+                <h2>Upcoming Tasks</h2>
+                <ul>
+                    <li><input type="checkbox"> Chapter-1-Introduction to HTML and CSS </li>
+                    <li><input type="checkbox"> Chapter-2-Links and navigation</li>
+                    <li><input type="checkbox"> Chapter-3-Images</li> <!-- Task item -->
+                    <li><input type="checkbox"> Chapter-4-Page Layout</li>
+                    <li><input type="checkbox"> Chapter-5-Embedded Content</li>
+                    <li><input type="checkbox"> Chapter-6-Javascript</li>
+                </ul>
+            </section>
+            <section class="material-column">
+                <h2>Study Materials</h2>
+                <ul>
+                    <li>Web Development Session 1</li>
+                    <li>HTML Basic Tags Session 2</li> <!-- Study material item -->
+                    <li>CSS Introduction Session 3</li>
+                    <li>Multimedia Session 4</li>
+                    <li>Java Script Session 5</li>
+                </ul>
+            </section>
+        </div>
+        <aside class="important-dates"> <!-- Aside section for important dates -->
+            <h2>Important Dates</h2>
+            <ul>
+                <li>March 21 - Task 1 Submission</li>
+                <li>March 22 - Task 2 Submission</li> <!-- Important date item -->
+                <li>March 23 - Task 3 Submission</li>
+                <li>March 24 - Task 4 Submission</li>
+                <li>March 25 - Task 5 Submission</li>
+            </ul>
+        </aside>
+    </main>    
+    <footer> <!-- Footer section -->
+        <p>&copy; 2024 Study Plan - Web Development Module</p>
+    </footer>
+</body>
+</html>
