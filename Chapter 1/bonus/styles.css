@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #AC87C5;
+    color: #333; /* Set text color */
+    padding-bottom: 50px; /* Add padding to the bottom */
+}
+
+header {
+    background-color:#756AB6; /* Set background color */
+    color: #FDFAF6;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Styles for the h1 element */
+h1 {
+    margin: 0;
+}
+
+.reference-section {
+    padding: 20px;  /* Add padding */
+    margin: 20px auto;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add box shadow */
+    max-width: 800px;
+}
+
+h2 {
+    color: #333;
+}
+
+h3 {
+    color: #666;
+}
+
+pre {
+    background-color: #FFF3C7;
+    padding: 10px;
+    border-radius: 5px;
+    overflow-x: auto; /* Allow horizontal overflow */
+}
+
+code {
+    color: #333;
+}
+
+footer {
+    background-color: #756AB6;
+    color: #FDFAF6;
+    padding: 10px;
+    text-align: center; /* Center align text */
+    position: fixed; /* Fix position */
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
