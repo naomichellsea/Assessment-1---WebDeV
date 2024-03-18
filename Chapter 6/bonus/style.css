@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    text-align: center;
+    padding-top: 50px; /* Added padding to the top */
+}
+
+.container {
+    max-width: 400px;
+    margin: 0 auto; /* Centering the container horizontally */
+    padding: 40px 20px; /* Increased padding for better spacing */
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Added a subtle shadow for depth */
+}
+
+h1 {
+    margin-bottom: 20px; /* Decreased margin for a more compact header */
+    color: #333;
+}
+
+#rgb-value {
+    font-size: 1.5em;
+    margin-bottom: 20px; /* Decreased margin for a more compact header */
+}
+
+.option {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    border-radius: 50px;
+    cursor: pointer;
+    background-color: #ccc; /* Adjusted background color for a more subtle look */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Added a subtle shadow for depth */
+    transition: background-color 0.3s, transform 0.3s; /* Added transition for hover effect */
+}
+
+.option:hover {
+    background-color: #ddd; /* Darker background on hover for visual feedback */
+    transform: translateY(-8px); /* Slight upward movement on hover for interaction */
+}
+
+#result {
+    margin-top: 20px; /* Decreased margin for a more compact result */
+    font-weight: bold;
+    color: #E06469; /* Adjusted color for a softer look */
+}
+
+#replay-btn {
+    margin: 30px auto 0; /* Adjusted margin for centering the button horizontally */
+    background-color: #BF3131;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 12px 24px; /* Adjusted padding for better button appearance */
+    cursor: pointer;
+    transition: background-color 0.3s;
+    display: block; /* Changed display to block to center horizontally */
+    width: fit-content; /* Added to make the button width fit its content */
+    font-size: 1em; /* Adjusted font size for better proportion */
+}
+
+#replay-btn:hover {
+    background-color: #7D0A0A;
+}
+
